@@ -1,0 +1,72 @@
+.header {
+    text-align: center;
+}
+
+.header h1{
+    font-size: 42px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.header h2{
+    font-size: 20px;
+    color: #bbbbbb;
+    margin-top: -10px;   
+}
+
+body {
+    background-color: #000;
+    color: #e0e0e0;
+    font-family: "Georgia", serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Naslov */
+.naslov {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.naslov h1 {
+    font-size: 42px;
+    font-weight: normal;
+    color: #ffffff;
+}
+
+.naslov h2 {
+    font-size: 20px;
+    color: #bbbbbb;
+    margin-top: -10px;
+}
+
+/* Content */
+.content {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-size: 19px;
+    line-height: 1.7;
+}
+
+/* Slike */
+.slika {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.slika img {
+    width: 40%;
+    border-radius: 8px;
+    opacity: 0.95;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #111;
+    color: #888;
+    margin-top: 40px;
+    font-size: 14px;
+}

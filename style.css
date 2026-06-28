@@ -1,0 +1,48 @@
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.naslov {
+    padding: 20px;
+    text-align: center;
+}
+
+.linkovi{
+    width: 80%;
+    margin: 40px auto;
+    padding:20px;
+
+    border: 2px solid #333;
+    border-radius: 10px;
+    background-color: #fffefe;
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align:center;
+}
+
+.linkovi a {
+    text-align: center;
+    display:grid;
+    margin-bottom: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.linkovi a:hover {
+    color: #c2d60cad;
+}
+
+.foot {
+    margin-top: auto;
+    background: #111;
+    color: #ccc;
+    text-align: center;
+    padding: 15px;
+}
